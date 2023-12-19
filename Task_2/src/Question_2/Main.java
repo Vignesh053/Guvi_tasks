@@ -7,6 +7,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         Product[] products = new Product[5];
+        System.out.println("Please enter the pid, price and quantity of a product in same line like this (1 250 4 2 350 5 ....)");
 
         for (int i = 0; i < products.length; i++) {
             

@@ -8,13 +8,16 @@ public class Main {
 
         System.out.println("your account balance is "+ account1.checkBalance());
         System.out.println( "your account balance is " +  account2.checkBalance());
+        System.out.println();
 
         account1.depositAmount(2500);
         account2.depositAmount(3000);
+        System.out.println();
 
 
         account1.withdrawAmount(3000);
         account2.withdrawAmount(1500);
+        System.out.println();
 
 
         System.out.println("your account balance is " + account1.checkBalance());
