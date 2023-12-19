@@ -33,11 +33,12 @@ public class Main {
         }
 
         n[a-1][a-1] = 1;
-        System.out.println(counter);
+        
 
         for (int i = 0; i < n.length; i++) {
             for (int j = 0; j < n.length; j++) {
                 System.out.print(n[i][j]);
+                System.out.print(" ");
             }
             System.out.println();
         }

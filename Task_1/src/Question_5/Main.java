@@ -13,9 +13,11 @@ public class Main {
             System.out.println("Total payable amount: " + a);
         }else if(a>=500 && a<1000){
             discountPrice = a - (a*10/100);
+            System.out.println("10% Discount applied");
             System.out.println("Total payable amount: " + discountPrice);
         }else if(a>=1000){
             discountPrice = a-(a*20/100);
+            System.out.println("20% Discount applied");
             System.out.println("Total payable amount: " + discountPrice);
         }
 
