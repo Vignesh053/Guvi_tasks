@@ -14,7 +14,7 @@ public class Main {
         LocalDate localDate = LocalDate.now();
 
         //get user input for birthdate
-        System.out.println("Enter your birthdate (yyyy-mm-dd):");
+        System.out.println("Enter your birthdate exactly as (yyyy-mm-dd) format:");
         String input = scanner.nextLine();
 
         //String input = "1990-05-15";
